@@ -186,8 +186,5 @@ ls -F Desktop
 
 
 ## Output
-'WhatsApp Image 2023-07-14 at 3.33.18 PM(2).jpeg'
 
-
-
-
+![Image: Listing of folder](img1.jpeg)
