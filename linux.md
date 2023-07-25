@@ -8,21 +8,23 @@ Use of the shell is fundamental to a wide range of advanced computing tasks, inc
 
 
 This lesson guides you through the basics of file systems and the shell. If you have stored files on a computer at all and recognize 
-the word “file” and either “directory” or “folder” (two common words for the same thing), you’re ready for this lesson.
+the word “file” and either “directory” or "folder" (two common words for the same thing), you’re ready for this lesson.
 
 If you’re already comfortable manipulating files and directories, searching for files with grep and find, and writing simple loops and 
 scripts, you probably want to explore the next lesson: shell-extras.
 # Download files
-   1. Download shell-lesson-data.zip and move the file to your Desktop.
-    2.Unzip/extract the file. Let your instructor know if you need help with this step. You should end up with a new folder called shell-lesson-data on your Desktop.
+
+1. Download shell-lesson-data.zip and move the file to your Desktop.
+2. Unzip/extract the file. Let your instructor know if you need help with this step. You should end up with a new folder called shell-lesson-data on your Desktop.
 
 
 # Install software
 If you do not already have the shell software installed, you will need to download and install it.
 
 # Open a new shell
-    3.Open a terminal. If you’re not sure how to open a terminal on your operating system, see the instructions below.
-    4.In the terminal type cd then press the Return key. This step will make sure you start with your home folder as your working directory.
+
+3. Open a terminal. If you’re not sure how to open a terminal on your operating system, see the instructions below.
+1. In the terminal type cd then press the Return key. This step will make sure you start with your home folder as your working directory.
 
 # Where to type commands: How to open a new shell
 
@@ -67,6 +69,8 @@ $ clear
 ls --help
 
 ## OUTPUT
+
+```sh
 Usage: ls [OPTION]... [FILE]...
 
 List information about the FILEs (the current directory by default).
@@ -166,7 +170,7 @@ Mandatory arguments to long options are mandatory for short options too.
   -1                         list one file per line.  Avoid '\n' with -q or -b
       --help     display this help and exit
       --version  output version information and exit
-
+```
 ##  ls -t lists items by time of last change instead of alphabetically. 
  ls -t
 ## OUTPUT
@@ -179,6 +183,8 @@ Videos     snap            Public    Music         Downloads  Desktop
 Templates  site1.localRai  Pictures  frappe-bench  Documents
 ## Command
 ls -F Desktop
+
+
 ## Output
 'WhatsApp Image 2023-07-14 at 3.33.18 PM(2).jpeg'
 
